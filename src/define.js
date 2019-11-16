@@ -1,4 +1,4 @@
-export default function(constructor, factory, prototype) {
+export function define(constructor, factory, prototype) {
   constructor.prototype = factory.prototype = prototype;
   prototype.constructor = constructor;
 }

@@ -1,4 +1,4 @@
-import define, {extend} from "./define.js";
+import {define, extend} from "./define.js";
 import {Color, rgbConvert, Rgb} from "./color.js";
 import {deg2rad, rad2deg} from "./math.js";
 

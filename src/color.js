@@ -1,4 +1,4 @@
-import define, {extend} from "./define.js";
+import {define, extend} from "./define.js";
 
 export function Color() {}
 
